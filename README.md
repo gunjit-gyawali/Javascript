@@ -143,8 +143,3 @@ If you have questions or need help:
 - Teaching demonstrations for JavaScript concepts
 - Template for building your own interactive websites
 
----
-
-**Built with ❤️ using pure JavaScript**
-
-*No frameworks, no dependencies, just vanilla JS!*
