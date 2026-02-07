@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="hero">
+        <div class="js-logo">
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript Logo">
+        </div>
+        <h1>JavaScript</h1>
+        <p>The programming language that powers the modern web</p>
+    </div>
+    
+    <div class="container">
+        <div class="intro">
+            <h2>About JavaScript</h2>
+            <p>JavaScript is a versatile, high-level programming language that brings interactivity to web pages. From simple animations to complex web applications, JavaScript makes the web dynamic and engaging. It runs in every modern browser and has evolved into a powerful tool for both frontend and backend development.</p>
+        </div>
+        
+        <div class="tech-logos">
+            <div class="logo-item">
+                <div class="logo-box">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" alt="Node.js">
+                </div>
+                <div class="logo-name">Node.js</div>
+            </div>
+            
+            <div class="logo-item">
+                <div class="logo-box">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React">
+                </div>
+                <div class="logo-name">React</div>
+            </div>
+            
+            <div class="logo-item">
+                <div class="logo-box">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg" alt="Vue.js">
+                </div>
+                <div class="logo-name">Vue.js</div>
+            </div>
+            
+            <div class="logo-item">
+                <div class="logo-box">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/npm/npm-original-wordmark.svg" alt="NPM">
+                </div>
+                <div class="logo-name">NPM</div>
+            </div>
+            
+            <div class="logo-item">
+                <div class="logo-box">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="TypeScript">
+                </div>
+                <div class="logo-name">TypeScript</div>
+            </div>
+        </div>
+        
+        <div class="features">
+            <div class="feature-card">
+                <h3>Universal Language</h3>
+                <p>Runs everywhere - in browsers, on servers with Node.js, and even on mobile devices</p>
+            </div>
+            
+            <div class="feature-card">
+                <h3>Easy to Start</h3>
+                <p>Simple syntax and forgiving nature makes it perfect for beginners while remaining powerful for experts</p>
+            </div>
+            
+            <div class="feature-card">
+                <h3>Massive Ecosystem</h3>
+                <p>Millions of packages available through npm, the largest software registry in the world</p>
+            </div>
+            
+            <div class="feature-card">
+                <h3>Always Evolving</h3>
+                <p>New features added regularly through ECMAScript standards, keeping the language modern</p>
+            </div>
+        </div>
+        
+        <div class="demos">
+            <h2 class="section-title">See JavaScript in Action</h2>
+            
+            <div class="demo-container">
+                <h3>Counter Application</h3>
+                <p class="description">A simple counter that demonstrates state management and DOM manipulation</p>
+                
+                <div class="display-number" id="counterDisplay">0</div>
+                
+                <div class="controls">
+                    <button onclick="incrementCounter()">Increment</button>
+                    <button onclick="decrementCounter()">Decrement</button>
+                    <button onclick="resetCounter()">Reset</button>
+                </div>
+            </div>
+            
+            <div class="demo-container">
+                <h3>Text Transformer</h3>
+                <p class="description">Enter any text and watch JavaScript transform it in multiple ways</p>
+                
+                <input type="text" id="userText" placeholder="Type something here...">
+                <button onclick="processText()">Transform Text</button>
+                
+                <div class="result" id="textResult">Your transformed text will appear here</div>
+            </div>
+            
+            <div class="demo-container">
+                <h3>Array Manipulator</h3>
+                <p class="description">See how JavaScript handles arrays with sorting, reversing, and filtering</p>
+                
+                <div class="controls">
+                    <button onclick="displayArray()">Show Array</button>
+                    <button onclick="sortNumbers()">Sort Ascending</button>
+                    <button onclick="reverseNumbers()">Reverse Order</button>
+                    <button onclick="addNumber()">Add Random Number</button>
+                    <button onclick="filterEven()">Show Even Numbers</button>
+                </div>
+                
+                <div class="result" id="arrayResult">Click a button to start working with arrays</div>
+            </div>
+            
+            <div class="demo-container">
+                <h3>Quote Generator</h3>
+                <p class="description">Generate random programming quotes to inspire your coding journey</p>
+                
+                <button onclick="showQuote()">Generate Quote</button>
+                
+                <div class="result" id="quoteResult">Click the button to see a quote</div>
+            </div>
+            
+            <div class="demo-container">
+                <h3>Background Color Changer</h3>
+                <p class="description">Dynamically change the page background with random colors</p>
+                
+                <div class="controls">
+                    <button onclick="changeBackground()">Random Color</button>
+                    <button onclick="restoreBackground()">Restore Default</button>
+                </div>
+                
+                <div class="result" id="colorResult">Click to change the background color</div>
+            </div>
+        </div>
+        
+        <div class="benefits">
+            <h2>Why JavaScript Matters</h2>
+            <ul>
+                <li>Powers interactive websites and web applications</li>
+                <li>Single language for full-stack development</li>
+                <li>Huge community with extensive learning resources</li>
+                <li>Framework options like React, Vue, and Angular</li>
+                <li>Real-time applications with WebSockets</li>
+                <li>Mobile app development with React Native</li>
+                <li>Desktop applications using Electron</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
